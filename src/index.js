@@ -1,5 +1,3 @@
 import SmartBanner from './smartbanner.js';
 
-export {
-  SmartBanner
-};
+window.SmartBanner = SmartBanner;

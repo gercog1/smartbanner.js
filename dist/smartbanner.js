@@ -107,19 +107,11 @@ exports["default"] = Detector;
 },{}],3:[function(require,module,exports){
 "use strict";
 
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-Object.defineProperty(exports, "SmartBanner", {
-  enumerable: true,
-  get: function get() {
-    return _smartbanner["default"];
-  }
-});
-
 var _smartbanner = _interopRequireDefault(require("./smartbanner.js"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+window.SmartBanner = _smartbanner["default"];
 
 },{"./smartbanner.js":5}],4:[function(require,module,exports){
 "use strict";
